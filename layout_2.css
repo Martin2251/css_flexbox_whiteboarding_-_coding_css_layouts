@@ -14,4 +14,21 @@ body{
 
 .navigation{
     display: flex;
+    justify-content: space-between;
+    background-color: #0aa1dd;
+    padding:0.8rem;
+    border-radius: 4rem;
+}
+
+.navigation_link{
+    color:white;
+    text-decoration: none;
+    border-radius: 3rem;
+    padding:1rem 2rem;
+    transition: all 0.25s ease-in;
+}
+
+.navigation_link:hover{
+    background-color: white;
+    background-color: #0aa1dd;
 }
