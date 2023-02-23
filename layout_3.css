@@ -1,4 +1,37 @@
- section{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 10px;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-cards{
     display: flex;
-    align-items: center;
- }
+    justify-content: space-evenly;
+   
+    /* hacks */
+    margin-top: 50vh;
+    transform: translateY(-50%);
+
+    background-color: #f4d7d7;
+    padding:2 rem 4rem;
+
+}
+
+.profile-cards__cards {
+    display: flex;
+}
+
+.profile-cards__card--img{
+    height:20rem;
+    width: 20rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
