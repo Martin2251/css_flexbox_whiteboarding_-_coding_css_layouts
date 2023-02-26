@@ -2,4 +2,6 @@ section{
     display: flex;
     /* default is no wrap */
     flex-wrap: wrap;
+    gap: 15px
+    
 }
