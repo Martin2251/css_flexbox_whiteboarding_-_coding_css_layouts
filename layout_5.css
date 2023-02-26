@@ -2,6 +2,14 @@ section{
     display: flex;
     /* default is no wrap */
     flex-wrap: wrap;
-    gap: 15px
+    gap: 0.5rem;
+    justify-content: center;
     
 }
+
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
