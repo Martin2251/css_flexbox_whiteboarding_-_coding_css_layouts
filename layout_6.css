@@ -2,3 +2,11 @@ form{
     display: flex;
     width:50%;
 }
+
+input [type="email"]{
+border: 1px solid lightcoral;
+font-size: 2rem;
+
+flex-grow: 1;
+
+}
