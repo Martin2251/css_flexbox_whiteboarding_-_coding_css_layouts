@@ -10,3 +10,12 @@ font-size: 2rem;
 flex-grow: 1;
 
 }
+
+input[type="submit"] {
+    background-color: lightcoral;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+  
+    flex-grow: 1;
+  }
