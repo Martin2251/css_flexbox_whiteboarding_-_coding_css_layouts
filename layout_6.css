@@ -15,6 +15,10 @@ input {
     padding: 1rem 2rem;
   }
 
+  input [type="email"]::placeholder {
+    color: blue;
+  }
+
 input [type="email"]{
 border: 1px solid lightcoral;
 font-size: 2rem;
