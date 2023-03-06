@@ -3,5 +3,14 @@
 section{
     display: flex;
     flex-direction: column;
-    
+
+}
+
+.price {
+    align-self:flex-start ;
+
+}
+
+a{
+    align-items: flex-end;
 }
