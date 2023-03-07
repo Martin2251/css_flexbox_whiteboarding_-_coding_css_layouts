@@ -13,8 +13,17 @@ section{
 
 }
 
+
+img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
 .price {
+    font-weight: bold;
     align-self:flex-start ;
+    padding:1rem 2rem;
 
 }
 
